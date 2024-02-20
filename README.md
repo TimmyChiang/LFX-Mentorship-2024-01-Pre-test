@@ -1,10 +1,10 @@
 # LFX-Mentorship-2024-01-Pre-test
 
-This is a repo of LFX Mentorship 2024-01 Pre-test for Integrate whisper.cpp as a new WASI-NN backend #3170
+This is a repository of LFX Mentorship 2024-01 Pre-test for Integrate whisper.cpp as a new WASI-NN backend, issue #3170.
 
 - Environment: macOS (M1)
 
-- Author: Cheng-Hung Chiang
+- Author: TimmyChiang
 
 ### Framework Execution: whisper.cpp
 
@@ -33,7 +33,7 @@ This is a repo of LFX Mentorship 2024-01 Pre-test for Integrate whisper.cpp as a
 
     ./stream -m ./models/ggml-small.en.bin -t 8 --step 500 --length 5000
     ```
-
+    (The following video will redirect to youtube)
     [![whisper](https://img.youtube.com/vi/M0AKrYx9F-w/maxresdefault.jpg)](https://www.youtube.com/watch?v=M0AKrYx9F-w)
 
 5. Confidence color-coding
@@ -91,5 +91,7 @@ This is a repo of LFX Mentorship 2024-01 Pre-test for Integrate whisper.cpp as a
     wasmedge --dir .:. --nn-preload default:GGML:AUTO:openchat_3.5-Q5_K_M.gguf llama-chat.wasm -p openchat -r '<|end_of_turn|>'
     ```
 
-- [![OpenChat-3.5.mov](https://img.youtube.com/vi/Hjm0Na2q0CA/maxresdefault.jpg)](https://www.youtube.com/watch?v=Hjm0Na2q0CA)
+    (The following video will redirect to youtube)
+    
+    [![OpenChat-3.5.mov](https://img.youtube.com/vi/Hjm0Na2q0CA/maxresdefault.jpg)](https://www.youtube.com/watch?v=Hjm0Na2q0CA)
 
