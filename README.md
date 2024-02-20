@@ -34,7 +34,7 @@ This is a repo of LFX Mentorship 2024-01 Pre-test for Integrate whisper.cpp as a
     ./stream -m ./models/ggml-small.en.bin -t 8 --step 500 --length 5000
     ```
 
-    ![whisper](./videos/whisper.mov)
+    ![whisper](https://imgur.com/a/NUmCPNI)
 
 5. Confidence color-coding
 
