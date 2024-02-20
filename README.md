@@ -34,7 +34,7 @@ This is a repo of LFX Mentorship 2024-01 Pre-test for Integrate whisper.cpp as a
     ./stream -m ./models/ggml-small.en.bin -t 8 --step 500 --length 5000
     ```
 
-    [![whisper](https://imgur.com/a/NUmCPNI.png)](https://imgur.com/a/NUmCPNI)
+    [![whisper](https://img.youtube.com/vi/M0AKrYx9F-w/maxresdefault.jpg)](https://www.youtube.com/watch?v=M0AKrYx9F-w)
 
 5. Confidence color-coding
 
@@ -90,4 +90,6 @@ This is a repo of LFX Mentorship 2024-01 Pre-test for Integrate whisper.cpp as a
 
     wasmedge --dir .:. --nn-preload default:GGML:AUTO:openchat_3.5-Q5_K_M.gguf llama-chat.wasm -p openchat -r '<|end_of_turn|>'
     ```
-- ![OpenChat-3.5.mov](./videos/OpenChat-3.5.mov)
+
+- [![OpenChat-3.5.mov](https://img.youtube.com/vi/Hjm0Na2q0CA/maxresdefault.jpg)](https://www.youtube.com/watch?v=Hjm0Na2q0CA)
+
