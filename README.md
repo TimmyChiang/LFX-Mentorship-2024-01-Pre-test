@@ -8,7 +8,7 @@ This is a repository of LFX Mentorship 2024-01 Pre-test for Integrate whisper.cp
 
 ### Framework Execution: whisper.cpp
 
-1. clone the repository
+1. Clone the repository
     ```
     git clone https://github.com/ggerganov/whisper.cpp.git
     ```
@@ -92,6 +92,6 @@ This is a repository of LFX Mentorship 2024-01 Pre-test for Integrate whisper.cp
     ```
 
     (The following video will redirect to youtube)
-    
+
     [![OpenChat-3.5.mov](https://img.youtube.com/vi/Hjm0Na2q0CA/maxresdefault.jpg)](https://www.youtube.com/watch?v=Hjm0Na2q0CA)
 
